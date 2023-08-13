@@ -11,7 +11,7 @@
 #ifndef __USERDRIVER_SSD13XX_SSD13XX_BASEFONTS_H__
 #define __USERDRIVER_SSD13XX_SSD13XX_BASEFONTS_H__
 
-/*¿í8ÏñËØ£¬¸ß16ÏñËØ*/
+/*å®½8åƒç´ ï¼Œé«˜16åƒç´ */
 const uint8_t BaseFonts_8x16[][16]=
 {
     0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,
