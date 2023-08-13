@@ -6,12 +6,12 @@ A simple driver library suitable for SSD1306/SSD1315, providing `printf(format_s
 
 Only 4...
 
-[x] .Init
+- [x] .Init
 
-[x] .PrintF
-[x] .PutChar
-[x] .Clear
-[x] .SetCursor
+- [x] .PrintF
+- [x] .PutChar
+- [x] .Clear
+- [x] .SetCursor
 
 ## Usage
 
