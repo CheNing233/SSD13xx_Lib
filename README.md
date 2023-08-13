@@ -6,12 +6,11 @@ A simple driver library suitable for SSD1306/SSD1315, providing `printf(format_s
 
 Only 4...
 
-- [x] .Init
-
-- [x] .PrintF
-- [x] .PutChar
-- [x] .Clear
-- [x] .SetCursor
+- [x] .Init (SSD13xx_InitTypeDef *SSD13xx_InitStructure, SSD13xx_handle_t *SSD13xx_Handle);
+- [x] .PrintF (SSD13xx_handle_t SSD13xx_Handle, uint8_t pos_x, uint8_t pos_y, const char* ptr_format, ...);
+- [x] .PutChar (SSD13xx_handle_t SSD13xx_Handle, uint8_t pos_x, uint8_t pos_y, uint8_t ch);
+- [x] .Clear (SSD13xx_handle_t SSD13xx_Handle);
+- [x] .SetCursor (SSD13xx_handle_t SSD13xx_Handle, uint8_t Pos_X, uint8_t Pos_Y);
 
 ## Usage
 
